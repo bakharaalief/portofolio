@@ -1,0 +1,161 @@
+.about {
+  background-color: rgb(26, 26, 23);
+  .container {
+    min-height: 80vh;
+    width: 70%;
+    h1 {
+      text-align: center;
+      font-size: 50px;
+      color: rgb(247, 243, 87);
+      padding: 1vh;
+    }
+    .profile {
+      transform: translateY(5vh);
+      display: flex;
+      justify-content: space-between;
+      .image {
+        width: 50vh;
+        height: 50vh;
+        border-radius: 50%;
+        margin-right: 5vh;
+        background-color: rgb(247, 243, 87);
+        overflow: hidden;
+        img {
+          width: 100%;
+          transform: translateY(-15vh);
+        }
+      }
+      .text {
+        color: rgb(247, 243, 87);
+        width: 50%;
+        align-self: center;
+        h2 {
+          font-size: 35px;
+        }
+        p {
+          color: white;
+        }
+        .social {
+          margin-top: 10px;
+          width: 30vh;
+          display: flex;
+          justify-content: space-around;
+          .ig {
+            width: 50px;
+            height: 50px;
+            padding: 3px;
+            border: 1px solid rgb(247, 243, 87);
+            cursor: pointer;
+            img {
+              width: 100%;
+            }
+          }
+          .twitter {
+            width: 50px;
+            height: 50px;
+            padding: 3px;
+            border: 1px solid rgb(247, 243, 87);
+            cursor: pointer;
+            img {
+              width: 100%;
+            }
+          }
+          .github {
+            width: 50px;
+            height: 50px;
+            padding: 3px;
+            border: 1px solid rgb(247, 243, 87);
+            cursor: pointer;
+            img {
+              width: 100%;
+              background-color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 411px) {
+  .about {
+    background-color: rgb(26, 26, 23);
+    .container {
+      min-height: 110vh;
+      width: 70%;
+      transform: translateY(10vh);
+      h1 {
+        text-align: center;
+        font-size: 50px;
+        color: rgb(247, 243, 87);
+        padding: 1vh;
+      }
+      .profile {
+        transform: translateY(1vh);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        .image {
+          width: 30vh;
+          height: 30vh;
+          border-radius: 50%;
+          margin-right: 5vh;
+          background-color: rgb(247, 243, 87);
+          overflow: hidden;
+          img {
+            transform: translateY(-10vh);
+          }
+        }
+        .text {
+          color: rgb(247, 243, 87);
+          width: 100%;
+          transform: translateY(1vh);
+          align-self: center;
+          h2 {
+            font-size: 30px;
+          }
+          p {
+            color: white;
+            font-size: 17px;
+          }
+          .social {
+            margin-top: 10px;
+            width: 30vh;
+            display: flex;
+            justify-content: space-around;
+            .ig {
+              width: 50px;
+              height: 50px;
+              padding: 3px;
+              border: 1px solid rgb(247, 243, 87);
+              cursor: pointer;
+              img {
+                width: 100%;
+              }
+            }
+            .twitter {
+              width: 50px;
+              height: 50px;
+              padding: 3px;
+              border: 1px solid rgb(247, 243, 87);
+              cursor: pointer;
+              img {
+                width: 100%;
+              }
+            }
+            .github {
+              width: 50px;
+              height: 50px;
+              padding: 3px;
+              border: 1px solid rgb(247, 243, 87);
+              cursor: pointer;
+              img {
+                width: 100%;
+                background-color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

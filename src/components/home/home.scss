@@ -1,0 +1,105 @@
+.home {
+  background-color: rgb(247, 243, 87);
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    min-height: 100vh;
+    .text {
+      h1 {
+        font-size: 50px;
+        color: rgb(26, 26, 23);
+        font-family: "Chilanka", cursive;
+      }
+      p {
+        font-size: 16px;
+      }
+    }
+    .text2 {
+      text-align: center;
+      width: 60vh;
+      border-left: 2px solid black;
+      h1::before {
+        content: "";
+        animation: gerak infinite 5s;
+      }
+      h1 {
+        font-size: 60px;
+        color: rgb(26, 26, 23);
+        font-family: "Chilanka", cursive;
+      }
+      @keyframes gerak {
+        0% {
+          content: "Halo";
+        }
+        25% {
+          content: "여보세요";
+        }
+        50% {
+          content: "光环";
+        }
+        75% {
+          content: "こんにちは";
+        }
+        100% {
+          content: "aureola";
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 411px) {
+  .home {
+    background-color: rgb(247, 243, 87);
+    .container {
+      display: flex;
+      flex-direction: column-reverse;
+      transform: translateY(-10vh);
+      min-height: 100vh;
+      width: 100%;
+      .text {
+        h1 {
+          font-size: 30px;
+          color: rgb(26, 26, 23);
+          font-family: "Chilanka", cursive;
+        }
+        p {
+          font-size: 16px;
+        }
+      }
+      .text2 {
+        text-align: center;
+        width: 40vh;
+        transform: translateY(18vh);
+        border: none;
+        h1::before {
+          content: "";
+          animation: gerak infinite 5s;
+        }
+        h1 {
+          font-size: 60px;
+          color: rgb(26, 26, 23);
+          font-family: "Chilanka", cursive;
+        }
+        @keyframes gerak {
+          0% {
+            content: "Halo";
+          }
+          25% {
+            content: "여보세요";
+          }
+          50% {
+            content: "光环";
+          }
+          75% {
+            content: "こんにちは";
+          }
+          100% {
+            content: "aureola";
+          }
+        }
+      }
+    }
+  }
+}
