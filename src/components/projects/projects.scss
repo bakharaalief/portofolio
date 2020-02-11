@@ -1,16 +1,20 @@
 .projects {
   background-color: rgb(26, 26, 23);
   min-height: 100vh;
+
   .container {
     transform: translateY(10vh);
+
     h1 {
       text-align: center;
       font-size: 50px;
       color: rgb(247, 243, 87);
     }
+
     .project {
       display: flex;
-      padding: 2vh;
+      margin-top: 7vh;
+
       .image {
         width: 255vh;
         height: 45vh;
@@ -18,18 +22,22 @@
         background-color: rgb(247, 243, 87);
         display: flex;
         align-items: center;
+
         img {
           width: 100%;
         }
       }
+
       .text {
         h2 {
           font-size: 35px;
           color: rgb(247, 243, 87);
         }
+
         p {
           color: white;
         }
+
         button {
           background-color: transparent;
           border: 1px solid yellow;
@@ -44,6 +52,7 @@
   .projects {
     background-color: rgb(26, 26, 23);
     min-height: 100vh;
+
     .container {
       h1 {
         text-align: center;
@@ -51,25 +60,31 @@
         color: rgb(247, 243, 87);
         padding: 1vh;
       }
+
       .project {
         display: flex;
         flex-direction: column;
         padding: 2vh;
+
         .image {
           width: 100%;
           height: 30vh;
           margin-right: 5vh;
           background-color: rgb(247, 243, 87);
         }
+
         .text {
           color: rgb(247, 243, 87);
+
           h2 {
             font-size: 30px;
           }
+
           p {
             color: white;
             font-size: 17px;
           }
+
           button {
             background-color: transparent;
             border: 1px solid yellow;
